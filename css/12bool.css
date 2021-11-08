@@ -118,6 +118,38 @@
 .col-xs-11-offset {
     margin-left: calc((100% / 12) * 11);
 }
+/* utility classes */
+.row-xs-jcflex-start {
+    justify-content: flex-start;
+}
+
+.row-xs-jccenter {
+    justify-content: center;
+}
+
+.row-xs-jcflex-end {
+    justify-content: flex-end;
+}
+
+.row-xs-jcspace-around {
+    justify-content: space-around;
+}
+
+.row-xs-jcspace-between {
+    justify-content: space-between;
+}
+
+.row-xs-aitop {
+    align-items: flex-start;
+}
+
+.row-xs-aicenter {
+    align-items: center;
+}
+
+.row-xs-aibottom {
+    align-items: flex-end;
+}
 
 @media screen and (max-width: 576px) {
     .col-sm-1 {

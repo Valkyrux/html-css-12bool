@@ -15,7 +15,15 @@ body>div {
     border: 1px solid cadetblue;
 } 
 
-.blank-items-container *,
-.offset-exercise * {
+.no-text>* {
     height: 35px;
+}
+
+.second-text>div:nth-child(1) {
+    height: 70px;
+}
+
+
+.second-text>div:nth-child(2) {
+    height: fit-content;
 }
