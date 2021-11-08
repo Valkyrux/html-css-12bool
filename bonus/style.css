@@ -1,0 +1,91 @@
+.container {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.display {
+    width: 900px;
+    height: 500px;
+    background-color: black;
+    margin: 0 auto; 
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.display>div {
+    height: 100%;
+    background-image: url(https://picsum.photos/900/500);
+    background-position: center;
+}
+
+.appoggio {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.main {
+    height: calc(100% - 50px);
+    padding: 15px;
+    position: relative;
+}
+
+.zoom-app {
+    padding: 10px;
+    background-color: rgba(80, 80, 80, 0.8);
+    font-size: 10px;
+    text-align: center;
+    height: fit-content;
+    border-radius: 5px;
+}
+
+.app-content img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.fastidio {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightgray;
+    z-index: 99999999999999999999999999999999999999999999999999;
+}
+
+.bar {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.pc-bar {
+    font-size: 1.8em;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.pc-bar i {
+    margin-left: 15px;
+}
+
+.pc-bar img {
+    margin-left: 20px;
+    width: 30px;
+}
+
+.pc-bar img:nth-child(5) {
+    border-radius: 10px;
+    background-color: rgba(80, 80, 80, 0.8);
+    width: 40px;
+}
+
+.appoggio:nth-child(2) div {
+    height: 50px;
+    background-color: black;
+}
+
+.appoggio:last-child div {
+    height: 30px;
+    border-radius: 40%;
+    background-color: black;
+}
