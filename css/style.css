@@ -1,0 +1,21 @@
+body>div {
+    margin: 10px 0;
+}
+
+[class*="col-"] {
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+[class*="col-"] .row [class*="col-"] {
+    background-color: green;
+    border: 1px solid cadetblue;
+} 
+
+.blank-items-container *,
+.offset-exercise * {
+    height: 35px;
+}
