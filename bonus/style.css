@@ -79,6 +79,23 @@
     width: 40px;
 }
 
+.icon {
+    margin-left: 20px;
+    padding: 5px 10px;
+    background-color: rgba(80, 80, 80, 0.8);
+    border-radius: 10px;
+}
+
+.icon div {
+    padding: 2px 5px;
+    background-color: royalblue;
+    border-radius: 10px;
+}
+
+.icon i {
+    margin:0;
+}
+
 .appoggio:nth-child(2) div {
     height: 50px;
     background-color: black;
